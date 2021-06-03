@@ -23,6 +23,6 @@ jobs:
         if: env.PAT
         with:
           source_repo: "https://github.com/panghu999/panghu.git"
-          source_branch: "dust"
-          destination_branch: "sync-monk-coder-JavaScript"
+          source_branch: "master"
+          destination_branch: "sync-nm-Script"
           github_token: ${{ secrets.ZYT }}
